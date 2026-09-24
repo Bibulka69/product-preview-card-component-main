@@ -30,7 +30,7 @@ main {
 .card__cover {
     width: 100%;
     height: auto;
-    background-image: url(/images/image-product-desktop.jpg);
+    background-image: url(/assets/images/image-product-desktop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 2rem 0 0 2rem;
@@ -103,6 +103,7 @@ main {
     background-color: #3E8068;
     color: #FFFFFF;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .card__button-inner {
@@ -131,7 +132,7 @@ main {
     .card__cover {
         width: 320px;
         height: 240px;
-        background-image: url(/images/image-product-desktop.jpg);
+        background-image: url(/assets/images/image-product-desktop.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         border-radius: 0.5rem 0.5rem 0 0;
