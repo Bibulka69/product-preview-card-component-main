@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F3EAE3;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10rem 0;
+}
+
+.card {
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+}
+
+.card__container {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+    width: 300px;
+    height: 100%;
+    display: block;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.card__column {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__poduct-name {
+    font-family: 'Montserrat', serif;
+    font-size: 0.75rem;
+    color: #7D7D89;
+    letter-spacing: 0.313rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card__poduct-name--inner {
+    padding-bottom: 1.5rem;
+}
+
+.card__title {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    line-height: 100%;
+}
+
+.card__title--inner {
+    padding-bottom: 1.5rem;
+}
+
+.card__text {
+    font-family: 'Montserrat', serif;
+    color: #1E252F;
+    font-size: 0.875rem;
+    line-height: 170%;
+}
+
+.card__text--inner {
+    padding-bottom: 1.5rem;
+}
+
+.card__price-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.card__discount-price {
+    font-family: 'Fraunces', serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #3E8068;
+}
+
+.card__price {
+    text-decoration: line-through;
+}
+
+.card__button {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #3E8068;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.card__button-inner {
+    padding: 1rem 2rem;
+}
+
+@media (max-width: 640px) {
+
+    .card__container {
+        width: 320px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    img {
+        width: 320px;
+        height: 250px;
+        display: block;
+        border-radius: 0.5rem 0.5rem 0 0;
+        object-fit: cover
+    }
+
+    .card {
+        border-radius: 0.5rem;
+    }
+
+    .card__column {
+        padding: 1rem 1rem;
+    }
+
+    .card__poduct-name--inner {
+        padding-bottom: 1rem;
+    }
+
+    .card__title--inner {
+        padding-bottom: 1rem;
+    }
+
+    .card__text--inner {
+        padding-bottom: 1rem;
+    }
+
+    .card__price-section {
+        padding-bottom: 1rem;
+    }
+
+}
