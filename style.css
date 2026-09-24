@@ -27,10 +27,12 @@ main {
     grid-template-columns: repeat(2, 1fr);
 }
 
-img {
-    width: 300px;
-    height: 100%;
-    display: block;
+.card__cover {
+    width: 100%;
+    height: auto;
+    background-image: url(/images/image-product-desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 2rem 0 0 2rem;
 }
 
@@ -124,6 +126,16 @@ img {
 
     .card {
         border-radius: 0.5rem;
+    }
+
+    .card__cover {
+        width: 320px;
+        height: 240px;
+        background-image: url(/images/image-product-desktop.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background-position: center;
     }
 
     .card__column {
