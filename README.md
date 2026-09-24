@@ -13,8 +13,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![](./images/chrome_AvB1HenCpD.png)
-![](./images/chrome_T9YooVrEC8.png)
+![](/assets/images/chrome_AvB1HenCpD.png)
+![](/assets/images/chrome_T9YooVrEC8.png)
 
 ### Links
 
