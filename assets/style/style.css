@@ -30,7 +30,7 @@ main {
 .card__cover {
     width: 100%;
     height: auto;
-    background-image: url(/assets/images/image-product-desktop.jpg);
+    background-image: url(assets/images/image-product-desktop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 2rem 0 0 2rem;
